@@ -1,8 +1,8 @@
 # Sample workflow for building and deploying a Hugo site to GitHub Pages
+name: Deploy exampleSite to Github Pages
+
 env:
   srcdir: "exampleSite"
-  
-name: Deploy ${{env.srcdir}} to Github Pages
 
 on:
   # Runs on pushes targeting the default branch
