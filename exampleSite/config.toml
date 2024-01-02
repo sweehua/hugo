@@ -9,9 +9,9 @@ metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
 [params]
-  editURL = "https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/"
-  description = "Documentation for Hugo Learn Theme"
-  author = "Mathieu Cornic"
+  editURL = "https://github.com/sweehua/hugo/edit/master/exampleSite/content/"
+  description = "SH's Page"
+  author = "SweeHua"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
