@@ -9,9 +9,9 @@ metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
 [params]
-  editURL = "https://github.com/sweehua/hugo/edit/master/exampleSite/content/"
-  description = "SH's Page"
-  author = "SweeHua"
+  editURL = "https://github.com/George-LJH/George-LJH.io/edit/master/exampleSite/content/"
+  description = "George-LJH"
+  author = "George"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
