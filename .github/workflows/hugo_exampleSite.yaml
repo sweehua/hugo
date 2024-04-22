@@ -3,6 +3,7 @@ name: Deploy exampleSite to Github Pages
 
 env:
   srcdir: "exampleSite"
+  theme: "https://github.com/half-duplex/hugo-arcana"
 
 on:
   # Runs on pushes targeting the default branch
@@ -53,6 +54,8 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Download Theme
+        run: git clone ${{ env.theme }} theme
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
