@@ -2,7 +2,7 @@
 name: Deploy exampleSite to Github Pages
 
 env:
-  srcdir: "exampleSite"
+  srcdir: "mysite"
   theme: "https://github.com/half-duplex/hugo-arcana"
 
 on:
