@@ -55,7 +55,7 @@ jobs:
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - run: git clone ${{ env.theme }} theme
-      - name: Build with Hugo
+      - name: Hugo Build ${{ env.srcdir }}/public
         env:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
