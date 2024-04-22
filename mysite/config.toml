@@ -2,8 +2,8 @@ baseURL = "/"
 languageCode = "en-US"
 
 title = "Hugo Learn Documentation"
-theme = "hugo"
-themesdir = "../.."
+theme = "hugo-theme-learn"
+themesdir = ".."
 metaDataFormat = "yaml"
 
 [params]
